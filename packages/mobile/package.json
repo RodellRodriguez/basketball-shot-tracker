@@ -1,0 +1,38 @@
+{
+  "name": "@basketball-shot-tracker/mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx expo start --tunnel",
+    "android": "npx expo start --android",
+    "ios": "npx expo start --ios",
+    "web": "npx expo start --web",
+    "eject": "npx expo prebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.25.7",
+    "expo": ">45.0.0",
+    "expo-modules-core": "~1.11.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    
+    "react-native": "0.74.5",
+    "@react-native/assets-registry": "^0.72.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "^0.19.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/plugin-transform-runtime": "^7.25.7",
+    "@types/react": "18.2.79",
+    "@types/react-native": "^0.73.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "react-native-svg-transformer": "^1.5.0",
+    "typescript": "5.3.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "extends": "expo/tsconfig.base",
+    "compilerOptions": {
+      "strict": true,
+      "baseUrl": "./",
+      "paths": {
+        "@basketball-tracker/common": ["../common/src"]
+      }
+    }
+  }

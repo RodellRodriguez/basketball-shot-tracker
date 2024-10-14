@@ -83,3 +83,6 @@ web-build/
 
 # Keep the pnpm-lock.yaml file
 !pnpm-lock.yaml
+
+# Bundle artifacts
+*.jsbundle
